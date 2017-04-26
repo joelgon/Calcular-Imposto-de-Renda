@@ -29,7 +29,7 @@ public class Fisica extends Contribuinte{
 
   public double CalcularImpostodeRenda(){
     if(CalcularRendaLiquida() <= 10000.00){
-      return CalcularRendaLiquida();
+      return 0;
     }
     else{
       if(CalcularRendaLiquida() > 10000.00 && CalcularRendaLiquida() < 20000.00){
